@@ -25,5 +25,7 @@ Better flow like algorithms
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+We get the result of multiple manipulations in a single file.That's pretty cool
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
