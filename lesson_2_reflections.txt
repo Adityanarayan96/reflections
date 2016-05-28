@@ -6,17 +6,22 @@ the operations git can perform can be done.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-The Staging Area is intermidiate between the Working Directory and the commits.It allows us to consolidate the changes we make together (As long as one logical change is made) and commit it together to make it more meaningful
+The Staging Area is intermidiate between the Working Directory and the 
+commits.It allows us to consolidate the changes we make together (As long as one 
+logical change is made) and commit it together to make it more meaningful
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-As soon as a logical change is completed we add it to the staging area and then use git diff --stage to se if only one logical change between the current and modified files are present.
+As soon as a logical change is completed we add it to the staging area and then 
+use git diff --stage to se if only one logical change between the current and 
+modified files are present.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-Situatons where different experiments have to be done without fucking up the current line of things (Usually more than 2 changes).
+Situatons where different experiments have to be done without fucking up the 
+current line of things (Usually more than 2 changes).
 
 How do the diagrams help you visualize the branch structure?
 
@@ -29,3 +34,5 @@ We get the result of multiple manipulations in a single file.That's pretty cool
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+Automatic Merging has the advantage that it can easily incorporate the ideas of both commiters into the same.While manual is always just more efficient.
